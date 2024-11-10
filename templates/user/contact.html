@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<div class=" col-6 col-md-4 col-lg-2 container">
+    <form action="" method="POST">
+        {% csrf_token %}
+        <h1>Contact us</h1>
+        <br>
+       <input type="text" name="Name" placeholder=" Name">
+        <br>
+        <input type="email" name="email" style="margin-top:20px" placeholder="email">
+        <br>
+        <input type="textarea" style="height:100px;margin-top:20px" >
+        <br>
+        <button type="submit" class='btn btn-primary'  style="margin-top:20px"  >Send Message</button>
+    </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

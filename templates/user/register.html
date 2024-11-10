@@ -1,0 +1,25 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/register.css' %}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+<div class=" col-6 col-md-4 col-lg-2 container">
+    <form action="" method="POST">
+        {% csrf_token %}
+        <br>
+       <input type="text" name="firstname" class="mt-4 first_name" placeholder="First Name">
+        <br>
+        <input type="text" name="lastname" class="mt-4 last_name" placeholder="Last Name">
+        <br>
+        <input type="email" name="email" class="mt-4 e_mail" placeholder="email">
+        <br>
+        <input type="text" name="username" class="mt-4 user_name" placeholder="username">
+        <br>
+        <input type="password" name="password" class="mt-4 pass_word" placeholder="password">
+        <br>
+        <input type="submit" class="mt-4 regbtn" value="register">
+        <br>
+        <p class="mt-4 message">Already a user? <a href="/user/login">Sign In</a></p>
+    </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

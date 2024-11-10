@@ -1,0 +1,22 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+    <br>
+
+    <form action="/item/save" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        
+        <input type="text" style="margin-left:70px; margin-top:10px;" name="name" placeholder="Name"/>
+        <br>
+        <input type="text" style="margin-left:70px; margin-top:10px" name="price" placeholder="Price" />
+        <br>
+        <input type="file" style="margin-left:60px; margin-top:20px" name="image">
+
+
+        <br>
+            <input type="submit" style="margin-left:90px; margin-top:40px"value="save" />
+
+    </form>
+    
+{% endblock %} 
