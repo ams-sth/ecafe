@@ -1,0 +1,56 @@
+.container{
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 10%;
+    padding: 20px;
+  
+    padding: 20px 40px;
+}
+
+.close{
+    justify-content: right;
+  }
+  
+.first_name{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(229, 223, 223);
+}
+
+.last_name{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(229, 223, 223);  
+}
+
+.e_mail{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(229, 223, 223);
+}
+
+.user_name{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(229, 223, 223);
+}
+.pass_word{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(229, 223, 223);
+}
+
+.regbtn{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.message{
+    margin-left: 8%;
+}
+
+
+

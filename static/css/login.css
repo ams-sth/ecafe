@@ -1,0 +1,30 @@
+.container{
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-top: 10%;
+  padding: 20px;
+
+  padding: 20px 40px;
+}
+
+.user_name{
+ 
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(229, 223, 223);
+}
+
+.pass_word{
+ padding: 10px;
+ border-radius: 20px;
+ border: 1px solid rgb(229, 223, 223);
+}
+
+.logbutton{
+  align-content: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
